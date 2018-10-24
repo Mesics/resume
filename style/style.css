@@ -1,0 +1,104 @@
+@font-face{
+	font-family: 'ubuntu';
+	src: url('font/Ubuntu-R.ttf');
+}
+
+@font-face{
+	font-family: 'DoYouLoveMe';
+	src: url(font/KGDoYouLoveMe.ttf);
+}
+
+*, main h2, main h3, main p, a{
+  font-family: ubuntu, tahoma, arial;
+}
+
+p, a {
+	font-size: 18px;
+}
+
+body header h1 {
+	font-family: DoYouLoveMe, ubuntu, arial;
+	font-size: 54px;
+	line-height: 50px;
+	color: white;
+} 
+
+i{
+	color: #B82010;
+} 
+
+.no_display{
+	display:none;
+}
+
+/**** HEADER ****/
+header{
+	padding: 10px 0;
+	margin-bottom: 20px;
+	background-color: #B82010;
+	color: white;
+}
+
+header i{
+	color: white;
+}
+
+header .general p{
+	margin-right: 30px;
+}
+
+#avatar{
+	/*margin-left: 10px;*/
+	height: 140px;
+	width: auto;
+	border-radius: 80px;
+}
+
+#mail{
+	font-size: 1.75vw;
+}
+@media all and (min-width: 1080px) {
+	#mail{
+		font-size: 18px;
+	}
+}
+
+/**** SKILLS ****/
+main #skills h2{
+	padding: 10px;
+}
+
+main .uk-panel-box {
+	box-shadow: 5px 5px 5px;
+	margin: 15px 0;
+	border-radius: 10px;
+}
+
+main #skills .skills-panels{
+	padding: 10px 15px 30px 15px;
+}
+
+main #skills h3 {
+	margin: 0;
+}
+
+main #skills img {
+	margin-bottom: 10;
+}
+
+main #skills .git, main #skills .prog, main #skills .db, main #skills .os {
+	height: 100px;
+	width: auto;
+}
+
+
+/**** ED XP ****/
+main #timeline_ed_xp h2 {
+	padding: 10px;
+}
+
+
+/**** TIMELINE ****/
+#myTimeline h3, #myTimeline p {
+  margin: auto;
+}
